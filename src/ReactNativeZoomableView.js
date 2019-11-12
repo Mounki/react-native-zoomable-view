@@ -116,7 +116,7 @@ class ReactNativeZoomableView extends Component {
       this.props.onStartShouldSetPanResponder(e, gestureState, this._getZoomableViewEventObject(), false);
     }
 
-    return false;
+    return true;
   };
 
   /**
